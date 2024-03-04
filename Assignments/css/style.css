@@ -64,6 +64,11 @@ aside img{
     border-radius: 100%;
 }
 
+section img{
+    border: 4px solid #8FB4F7;
+    border-radius: 100%;
+}
+
 /*** Layout ***/
 .container{
     background-color: white;
