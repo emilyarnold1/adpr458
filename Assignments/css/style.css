@@ -118,3 +118,10 @@ section img{
 .button:hover {
     background-color:#5f94f4;
 }
+
+/*** Mobile ***/
+@media (max-width: 720px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
