@@ -120,8 +120,25 @@ section img{
 }
 
 /*** Mobile ***/
+
+main {
+grid-template-columns: auto;
+}
+
 @media (max-width: 720px) {
     nav ul {
         flex-direction: column;
     }
+}
+
+aside {
+    order: -1;
+    text-align:center;
+    margin-top: 30px;
+}
+
+aside img {
+    width: 90px;
+    aspect-ratio: 1/1;
+
 }
