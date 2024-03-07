@@ -131,7 +131,12 @@ grid-template-columns: auto;
         text-align: center;
         justify-content: center;
     }
+    nav ul li {
+        justify-content: center;
+        text-align: center;
+    }
 }
+
 
 aside {
     order: -1;
