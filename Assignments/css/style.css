@@ -29,6 +29,10 @@ h3{
     font-size: 1.25rem;
 }
 
+img {
+    max-width: 100%;
+}
+
 nav{
     background-color: #666;
 }
@@ -44,6 +48,7 @@ nav ul{
     gap: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
+    flex-flow: row wrap;
 }
 
 nav ul li a {
@@ -70,10 +75,7 @@ a:hover{
     background-color: rgb(30, 30, 30);
 }
 
-section img{
-    border: 4px solid #8FB4F7;
-    border-radius: 100%;
-}
+
 
 
 /*** Layout ***/
@@ -90,15 +92,6 @@ section img{
     grid-column: span 12;
 }
 
-/* Desktop Layout */
-@media screen and (min-width: 40rem) {
-    .col-span-8{
-        grid-column: span 8;
-    }
-    .col-span-4{
-            grid-column: span 4;
-    }
-}
 
 /*** Components ***/
 .button:link, .button:visited {
@@ -119,5 +112,43 @@ section img{
     background-color:#5f94f4;
 }
 
+.card {
+    text-align: center;
+    margin: 1rem;
+    padding-bottom: 2rem;
+    box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .15);
+}
+
+.card-title {
+    margin: 0.75rem 0 0 0;
+    padding: 0 2rem 0.5rem;
+}
+
+.card-text {
+    margin: 0.5rem 0 1rem;
+    padding: 0 2rem 0.5rem;
+}
+
 /*** Mobile ***/
 
+
+
+
+/* Desktop Layout */
+@media screen and (min-width: 40rem) {
+    .col-span-8{
+        grid-column: span 8;
+    }
+    .col-span-4{
+            grid-column: span 4;
+    }
+
+    .work-section {
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+    .card {
+        flex-basis: 27.5%;
+    }
+}
