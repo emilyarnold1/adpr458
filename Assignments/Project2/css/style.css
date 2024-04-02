@@ -1,0 +1,605 @@
+
+
+/* Header */
+header img {
+    max-height: 2.5rem;
+    display:block;
+    margin:auto;
+    padding-top: 1.5rem;
+    background: url(index.html);
+}
+
+
+/* Nav */
+nav ul {
+        display: flex;
+    list-style: none;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    flex-flow: row wrap;
+}
+
+/*Button*/
+.button_2 {
+        color: rgb(255, 255, 255);
+        background-color:rgb(0, 0, 0);
+        text-align: center;
+        justify-content: center;
+        text-decoration: none;
+        padding: 1rem 1.75rem;
+        border-radius: .5rem;
+        position:relative;
+        margin: auto;
+        font-size: 1rem;
+        margin-top: auto;
+        flex-direction: column;
+}
+
+/*Button*/
+
+
+/*Hero Image*/  
+    /* Container holding the image and the text */
+    .container {
+     position: relative;
+        text-align: center;
+     color: white;
+     }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 3rem;
+    padding-top: 9rem;
+    font-weight: 600;
+    flex-flow:wrap;
+    margin-left: 1.5rem;
+    }
+
+ .top-left-vday {
+        position: absolute;
+        top: 200px;
+        left: 16px;
+        font-size: 3rem;
+        padding-top: 2rem;
+        font-weight: 600;
+        flex-flow:wrap;
+        margin-left: 1.5rem;
+    }
+
+.container img {
+    border-radius: 5%;
+    width: 100%;
+    height: 32rem;
+    object-fit:cover;
+
+}
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 60px;
+    left: 16px;
+    font-size: 1rem;
+    padding-top: 10rem;
+    margin-left: 1.5rem;
+  }
+
+  .button:link, .button:visited {
+    color: rgb(66, 17, 17);
+    background-color:white;
+    text-align: left;
+    text-decoration: none;
+    padding: 1rem 1.75rem;
+    border-radius: .5rem;
+    box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .15);
+    display: inline-block;
+    margin: 0 .25rem .25rem 0;
+    margin-left: 1.5rem;
+    transition: background-color 0.5s ease;
+    position: absolute;
+    top: 260px;
+    left: 16px;
+    font-size: 1rem;
+}
+
+
+/*Desktop Layout*/
+@media screen and (min-width: 40rem) {
+    .col-span-4{
+        grid-column: span 4;
+        padding: 2rem;
+    }
+    .col-span-8{
+            grid-column: span 8;
+            padding: 2rem;
+    }
+
+}
+    .reviews {
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+        column-gap: 5rem;
+        padding: 1rem;
+
+    }
+    .card {
+        flex-basis: 20.5%;
+        display:flex;
+    }
+
+    .col-span-4-section {
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+
+
+/* Get started*/
+    .getstarted {
+    text-align: center;
+    font-size: 2.4rem;
+    background-color:#EBEBEB;
+    padding-top: 1rem;
+    border-radius: 5%;
+    }
+
+ .h1 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-bottom: -2rem;
+    font-size:2.75rem;
+    }
+
+.p1 {
+    font-size: 1.25rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+     }
+
+ .card {
+        text-align: center;
+        flex-direction: column;
+        place-content: left;
+        background-color: transparent;
+        padding-bottom: 8rem;
+    }
+
+    .card-title {
+    margin: 0.75rem 0 0 0;
+    padding: 0 2rem 0.5rem;
+    font-size: 1.5rem;
+    }
+
+    .card-text {
+    margin: 0.5rem 0 1rem;
+    padding: 0 2rem 0.5rem;
+    font-size: 1rem;
+    }
+ 
+    .card img {
+        max-height: 100%;
+        max-width: 100%;
+        border-radius: 4%;
+    }
+
+
+/* Tastes Great*/
+.tastesgreat {
+    background-color:#EBEBEB;
+    text-align: center;
+    font-size: 2.4rem;
+    padding: 1rem;
+    border-radius: 5%;
+    padding-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    }
+    .h1 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-bottom: -2rem;
+    font-size:2.75rem;
+    }
+    .p1 {
+    font-size: 1.25rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+        }
+
+    .card {
+    text-align: center;
+    margin: 1rem;
+    padding-bottom: 2rem;
+    border-radius: 4%;
+    background-color: white;
+    max-height: 24rem;
+    max-width:16rem;
+    flex-flow:column;
+    flex-flow: row wrap;
+    display: inline-block;
+    justify-content: center;
+    }
+
+    .card-title {
+    margin: 0.75rem 0 0 0;
+    padding: 0 2rem 0.5rem;
+    font-size: 1.5rem;
+    
+    }
+
+    .card-text {
+    margin: 0.5rem 0 1rem;
+    padding: 0 2rem 0.5rem;
+    font-size: 1rem;
+    }
+
+    .col-span-4-section {
+        display: flex;
+        justify-content: center;
+    }
+
+ 
+    .card img {
+        max-height: 20rem;
+        max-width: 16rem;
+    }
+
+
+/* see what's new*/
+
+.seewhatsnew {
+    background-color:#EBEBEB;
+    border-radius: 5%;
+}
+
+.seewhatsnew h1 {
+    font-size: 3rem;
+    padding-left: 3rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.box {
+    background-color: #B54A32;
+    fill:#B54A32;
+    height: 45rem;
+    max-width: 100%;
+    border-radius: 5%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+.box img {
+    height: 45rem;
+    display:flex;
+    position: relative;
+    bottom: 300px;
+    margin-right: 70%;
+}
+
+
+.box h1{
+    color: white;
+    font-size: 4rem;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+    top: 30%;
+    left: 50%;
+    padding-right: 4rem;
+    width: 30%;
+
+}
+
+
+.box p {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-align: right;
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    width: 100%;
+    padding-right: 4rem;
+    margin-right: 4rem;
+
+}
+
+
+/*inspriation from chamberlain coffee*/
+.inspo {
+    text-align: center;
+    font-size: 2.4rem;
+    background-color:#EBEBEB;
+    padding: 1rem;
+    border-radius: 5%;
+    padding-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    }
+    .h1 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-bottom: -2rem;
+    font-size:2.75rem;
+    }
+    .p1 {
+    font-size: 1.25rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+        }
+
+    .inspo-card {
+    text-align: center;
+    margin: 1rem;
+    padding-bottom: 2rem;
+    border-radius: 4%;
+    background-color: white;
+    max-height: 24rem;
+    max-width:16rem;
+    flex-flow:column;
+    flex-flow: row wrap;
+    display: inline-block;
+    justify-content: center;
+    }
+
+    .inspo-card-title {
+    margin: 0.75rem 0 0 0;
+    padding: 0 2rem 0.5rem;
+    font-size: 1.25rem;
+    
+    }
+
+    .inspo-card-text {
+    margin: 0.5rem 0 1rem;
+    padding: 0 2rem 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    }
+
+    .col-span-4-section {
+        display: flex;
+        justify-content: center;
+    }
+
+ 
+    .inspo-card img {
+        max-height: 20rem;
+        max-width: 16rem;
+        border-radius: 5%;
+    }
+
+/* Say hello to chamberlain cofee*/
+.hello {
+    text-align: center;
+    font-size: 2.4rem;
+    background-color:#EBEBEB;
+    padding: 1rem;
+    border-radius: 5%;
+    padding-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    }
+    .h1 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-bottom: -2rem;
+    font-size:2.75rem;
+    }
+    .p1 {
+    font-size: 1.25rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+        }
+
+.hello img {
+    border-radius: 5%;
+    height: 40rem;
+}
+
+.hello-title {
+    font-size: 3rem;
+    margin: 5rem;
+}
+
+.hello-subhead {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 2rem;
+}
+
+.hello-text {
+    font-size: 1.25rem;
+    margin: 1rem;
+    text-align: center;
+
+}
+
+/* Created with love*/
+.created {
+    text-align: center;
+    font-size: 2.4rem;
+    background-color:#EBEBEB;
+    padding: 1rem;
+    border-radius: 5%;
+    padding-bottom: 4.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    }
+
+   .created h1 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-bottom: -4.5rem;
+    font-size:2.75rem;
+    }
+    .p1 {
+    font-size: 1.25rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+        }
+
+.created img {
+    border-radius: 5%;
+    height: 40rem;
+}
+
+.created-title {
+    font-size: 4rem;
+    margin: 5rem;
+}
+
+.created-subtext {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 2rem;
+    margin-bottom: -2rem;
+}
+
+.created-text {
+    font-size: 1.25rem;
+    margin: 3rem;
+
+}
+
+.created img{
+    max-height: 5rem;
+}
+
+/* join the list*/
+
+.box3 {
+    background-color: #0F4C85;
+    fill:#0F4C85;
+    height: 45rem;
+    max-width: 100%;
+    border-radius: 5%;
+}
+
+.box3 img{
+    height: 25rem;
+    left: 30%;
+    padding: 3rem;
+    padding-top: 8rem;
+    padding-left: 5rem;
+
+}
+
+.col-span-6-2 h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 300;
+    text-align: right;
+    position: relative;
+    bottom: 350px;
+    padding-right: 4rem;
+
+}
+
+
+.button_3 {
+    color: white;
+    outline: rgb(255, 255, 255);
+    outline: 3px;
+    outline-style: solid;
+    background-color:transparent;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem 1.75rem;
+    border-radius: .5rem;
+    position:relative;
+    font-size: 1rem;
+    margin-top: auto;
+    bottom: 375px;
+    float: right;
+    margin-right: 3.75rem;
+    right: 25px;
+}
+
+.button_4 {
+    color: #0F4C85;
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 1rem 1.75rem;
+    border-radius: .5rem;
+    position:relative;
+    font-size: 1rem;
+    bottom: 300px;
+    float: right;
+    left: 105px;
+}
+
+@media screen and (min-width: 40rem) {
+    .col-span-6{
+        grid-column: span 6;
+        padding: 2rem;
+    }
+
+    .col-span-6-2{
+        grid-column: span 6;
+        padding: 2rem;
+    }
+}
+
+
+/* VDAY Page */
+
+.vday-products {
+    background-color: #EBEBEB;
+    border-radius: 5%;
+}
+
+.nav-2 {
+    font-size: 1.5rem;
+    padding: 2.5rem;
+}
+
+.vday-products-cards {
+    font-size: 1.5rem;
+    background-color:#EBEBEB;
+    background:fixed;
+    padding: 1rem;
+    border-radius: 5%;
+    padding-bottom: 3rem;
+    margin-left: 5rem;
+    }
+
+    .card {
+    text-align: center;
+    flex-direction: column;
+    place-content: left;
+    background-color: transparent;
+    padding-bottom: 8rem;
+    }
+
+    .card-title {
+    margin: 0.75rem 0 0 0;
+    padding: 0 2rem 0.5rem;
+    font-size: 1.5rem;
+    }
+
+    .card-text {
+    margin: 0.5rem 0 1rem;
+    padding: 0 2rem 0.5rem;
+    font-size: 1rem;
+    }
+ 
+    .card img {
+        max-height: 100%;
+        max-width: 100%;
+        border-radius: 4%;
+        background-color: white;
+        padding-bottom: 2rem;
+    }
+
