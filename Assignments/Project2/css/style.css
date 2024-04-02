@@ -343,7 +343,6 @@ nav ul {
     margin: 1rem;
     padding-bottom: 2rem;
     border-radius: 4%;
-    background-color: white;
     max-height: 24rem;
     max-width:16rem;
     flex-flow:column;
@@ -373,7 +372,7 @@ nav ul {
 
  
     .inspo-card img {
-        max-height: 20rem;
+        max-height: 24rem;
         max-width: 16rem;
         border-radius: 5%;
     }
