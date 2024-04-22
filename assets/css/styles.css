@@ -50,7 +50,7 @@ header {
 
 /* Nav */
 nav ul {
-    display: flex;
+  display: flex;
   list-style: none;
   /* align-items: center; */
   justify-content: center;
@@ -60,12 +60,23 @@ nav ul {
   font-size: 2rem;
   font-family: poppins;
   font-weight: 200;
+  text-decoration: none;
+  color: black;
 }
 
-nav ul li:hover {
+nav ul li a:visited{
+  text-decoration: none;
+}
+
+
+nav ul li a:hover {
   color: #F1700E;
   transition: color 0.5s ease;
+}
 
+nav ul li a{
+  text-decoration: none;
+  color:rgb(0, 0, 0);
 }
 
 /*Button*/
@@ -577,7 +588,117 @@ input, text{
   }
 }
 
+/*Title*/
+#my_header9 {
+  display: table;
+  margin: auto;
+  background-color: white;
+  font-size:2rem;
+}
+
+#my_header9 div{
+  display:table-cell;
+  line-height: 0rem;
+  font-family: poppins;
+}
+
+#my_header9 p{
+  color: #F1700E;
+  font-size: 7rem;
+  position
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 1.5rem;
+}
+
+/* Clear floats after the columns */
 
 
+.row {
+  display:flex;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  margin-bottom: 4rem;
 
+}
 
+.row h4{
+  font-family: poppins;
+}
+
+.row p1{
+  font-family: poppins;
+  font-weight: 100;
+}
+
+.title h2{
+  font-family: poppins;
+  font-weight: 200;
+  font-size: 2rem;
+  text-align: center;
+  position:relative;
+}
+
+.work-images{
+  text-align:center;
+  justify-content: center;
+}
+.magad-design img{
+  justify-content: center;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  max-width: 60%;
+  padding-bottom: 3rem;
+  object-fit: cover;
+}
+
+.magad-mockup img{
+  justify-content: center;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  max-width: 60%;
+  object-fit: cover;
+
+}
+
+.multi-pages {
+  text-align:center;
+  justify-content: center;
+}
+
+.multi-pages img {
+  justify-content: center;
+  max-width: 22%;
+}
+
+.multi-mockup img{
+  justify-content: center;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  max-width: 66.5%;
+  object-fit: cover;
+  padding-top: 3rem;
+}
+
+.sugus-images{
+  text-align:center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.sugus-images img {
+  justify-content: center;
+  max-width: 66.5%;
+}
+
+.sugus-mockup img{
+  justify-content: center;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  max-width: 66.5%;
+  object-fit: cover;
+  padding-top: 3rem;
+}
