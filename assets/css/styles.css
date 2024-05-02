@@ -448,6 +448,8 @@ nav ul li a{
   .form {
     margin-left: 20%;
     margin-right:20%;
+    align-items: center:
+    justify-content: center;
   }
 
 .chat p{
@@ -455,6 +457,7 @@ nav ul li a{
   font-size: 1rem;
   font-family: poppins;
   font-weight: 200;
+  max-width: 7rem;
 }
 input.name {
   float:left;
@@ -483,9 +486,6 @@ input, text{
   font-family: poppins;
 }
 
-.message {
-  padding-bottom: 5rem;
-}
 
 
 /* social*/
@@ -528,6 +528,7 @@ input, text{
 #my_header6 p{
   color: #F1700E;
   font-size: 7rem;
+  padding-right: 8rem;
 }
 
 .social h3{
@@ -545,10 +546,25 @@ input, text{
 
 .linkedin{
   padding-top: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  align: column;
+}
+
+.linkedin img{
+  max-height: 4rem;
+}
+
+.email{
   padding-bottom: 1.5rem;
   justify-content: center;
   align-items: center;
 }
+
+.email img{
+  max-height: 4rem;
+}
+
 .box3 {
   background-color: #0F4C85;
   fill:#0F4C85;
