@@ -342,9 +342,16 @@ nav ul li a{
   border-radius: .5rem;
   font-size: 1rem;
   font-family: poppins;
-  margin-top: 7rem;
+  border: none !important;
 }
 
+.button_3:hover{
+  background-color: #E0E0E0;
+  color: #4E57FF;
+  transition: background-color 0.5s ease;
+  border: 5px #4E57FF;
+  border-color: #4E57FF;
+}
 
 
 
@@ -446,10 +453,16 @@ nav ul li a{
   }
 
   .form {
-    margin-left: 20%;
-    margin-right:20%;
+    margin-left: 25%;
+    margin-right: 25%;
     align-items: center:
     justify-content: center;
+    display: block;
+    text-align: center;
+  }
+
+  .contact{
+    text-align: center;
   }
 
 .chat p{
@@ -720,4 +733,27 @@ input, text{
   max-width: 66.5%;
   object-fit: cover;
   padding-top: 3rem;
+}
+
+.work_button{
+  text-align: center;
+  padding: 4rem;
+}
+
+.button_6{
+  color: white;
+  background-color: #F1700E;
+  text-align: center;
+  text-decoration: none;
+  padding: 1rem 1.75rem;
+  border-radius: .5rem;
+  font-size: 1rem;
+  font-family: poppins;
+  border: none !important;
+}
+
+.button_6:hover{
+  color: white;
+  background-color: #2D2D2D;
+  transition: background-color 0.5s ease;
 }
